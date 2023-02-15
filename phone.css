@@ -1,0 +1,54 @@
+
+/*for navigation*/
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    text-align: center;
+    padding: 2px 7px;
+    font-size: 1.1rem;
+}
+#navbar ul li{
+    /* font-size: 0.9rem; */
+}
+/*For home section*/
+#home{
+  height: 95px;
+}
+#home h1{
+    font-size: 1.5rem;
+}
+#home p{
+    font-size: 0.7rem;
+}
+#home::before{
+  height: 400px;
+}
+/*For services section*/
+#servicebox{
+    flex-direction: column;
+}
+/*For clients*/
+#client{
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+
+}
+#clientservices::before{
+    height: 247px;
+    margin: 0px 12px;
+}
+#client img{
+    height: 65px;
+}
+/*For contacts */
+.contact_box label {
+    font-size: 0.8rem;
+    margin: 0px 12px;
+}
+.contact_box input , .contact_box textarea {
+    width: 80%;  
+    margin: 0px 12px;
+}
+/*utility classes*/
+
